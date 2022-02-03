@@ -1,0 +1,340 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+	<title>Ebooks</title>
+	<style>
+		section{
+			padding: 60px 0;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-light">
+		<div class="container-xxl">
+			<a href = "#intro" class = "navbar-brand">
+				<span class="fw-bold text-secondary">
+					<i class="bi bi-book-half"></i>
+					محمدصالح-کتاب
+				</span>
+			</a>
+			<button class="navbar-toggler" type = "button" data-bs-toggle = "collapse" 
+					data-bs-target = "#main-nav" aria-controls = "main-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end align-center  " id="main-nav">
+				<ul class="navbar-nav align-items-end">
+				  <li class="nav-item">
+					<a class="nav-link" href="#topics">درباره کتاب</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#reviews">نظرات</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#contact">پیش نمایش</a>
+				  </li>
+				  <li class="nav-item d-md-none">
+					<a class="nav-link" href="#pricing">قیمت </a>
+				  </li>
+				  <li class="nav-item ms-2 d-none d-md-inline">
+					<a class="btn btn-secondary" href="#pricing">خرید</a>
+				  </li>
+
+				</ul>
+			 </div>
+		</div>
+	</nav>
+	<section id = "intro">
+		<div class="container-lg">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-md-5 text-center text-md-start">
+					<h1>
+						<div class="display-2">کتابها</div>
+						<div class="display-5 text-muted">مهارت خواندن شما</div>
+					</h1>
+					<p class="lead my-4 text-muted">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+					<a href="#pricing" class="btn btn-secondary btn-lg">خرید</a>
+					<a href="#sidebar" class = "d-block mt-3" data-bs-toggle = "offcanvas" role = "button" aria-controls="sidebar"> جستجوی کتابهای دیگر</a>
+				</div>
+				<div class="col-md-5 text-center d-none d-md-block">
+					<span class="tr" data-bs-placement = "bottom" title = "کاور کتاب من">
+						<img src ="assets/book.jpg" alt = "book" class = "img-fluid rounded-3" width="300px" height="300px">
+					</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="pricing" class = "bg-light mt-5">
+		<div class="container-lg">
+			<div class="text-center">
+				<h2>برنامه های مالی</h2>
+				<p class="lead text-muted">یک برنامه مالی برای خود انتخاب کنید</p>
+			</div>
+			
+			<div class="row my-5 align-items-center justify-content-center">
+				<div class="col-8 col-lg-4 col-xl-3">
+					<div class="card border-0">
+						<div class="card-body text-center py-4">
+							<h4 class="card-title">نسخه اول</h4>
+							<p class="lead card-subtitle">دانلود کتاب</p>
+							<p class="display-5 my-4 text-primary fw-bold">50 هزار تومان</p>
+							<p class="card-text mx-5 text-muted d-none d-lg-block">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+							<a href="#" class="btn btn-outline-primary btn-lg mt-3">خرید</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-9 col-lg-4">
+					<div class="card border-2 border-primary">
+						<div class="card-header text-center text-primary">محبوب ترین ها</div>
+						<div class="card-body text-center py-5">
+							<h4 class="card-title">نسخه اول</h4>
+							<p class="lead card-subtitle">دانلود کتاب</p>
+							<p class="display-4 my-4 text-primary fw-bold">50 هزار تومان</p>
+							<p class="card-text mx-5 text-muted d-none d-lg-block">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+							<a href="#" class="btn btn-outline-primary btn-lg mt-3">خرید</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-8 col-lg-4 col-xl-3">
+					<div class="card border-0">
+						<div class="card-body text-center py-4">
+							<h4 class="card-title">نسخه اول</h4>
+							<p class="lead card-subtitle">دانلود کتاب</p>
+							<p class="display-5 my-4 text-primary fw-bold">50 هزار تومان</p>
+							<p class="card-text mx-5 text-muted d-none d-lg-block">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+							<a href="#" class="btn btn-outline-primary btn-lg mt-3">خرید</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="topics">
+		<div class="container-md">
+			<div class="text-center">
+				<h2>داخل کتاب...</h2>
+				<p class="lead text-muted">یک برنامه مالی برای خود انتخاب کنید</p>
+			</div>
+			
+			<div class="row my-5 g-5 justify-content-around align-items-center">
+				<div class="col-6 col-lg-4">
+					<img src = "assets/ex.jpg" class = "img-fluid" alt = "ex book" width="400px" height="300px">
+				</div>
+				<div class = "accorion" id = "chapters">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="heading-1">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+							  فصل اول - اولین صفحه طراحی شما!
+							</button>
+						</h2> 
+						<div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
+							<div class="accordion-body">
+								<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+								<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="heading-2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
+						 	فصل 2 - پیشرفته شدن در CSS
+						</button>
+					  </h2>
+					  <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
+						<div class="accordion-body">
+						  <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+						  <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+						</div>
+					  </div>
+					</div>
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="heading-3">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-1">
+						  فصل 3- قدرت جاوا اسکریپت
+						</button>
+					  </h2>
+					  <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
+						<div class="accordion-body">
+						  <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+						  <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+						</div>
+					  </div>
+					</div>
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="heading-4">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
+						  فصل 4 - ذخیره کردن اطلاعات
+						</button>
+					  </h2>
+					  <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#chapters">
+						<div class="accordion-body">
+						  <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+						  <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+						</div>
+					  </div>
+					</div>
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="heading-5">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-5" aria-expanded="false" aria-controls="chapter-5">
+						  فصل 5 - تایید هویت کاربر
+						</button>
+					  </h2>
+					  <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#chapters">
+						<div class="accordion-body">
+						  <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+						  <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+						</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	
+	<section id="reviews" class = "bg-light">
+		<div class="container-lg">
+			<div class="text-center">
+				<h2><i class="bi bi-stars"></i>بررسی کتاب</h2>
+				<p class="lead ">نظرات دانش آموزان من درباره کتاب</p>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<div class="list-group">
+						<div class="list-group-item py-3 text-end">
+							<div class="pb-2">
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+							</div>
+							<h5 class="mb-1">بهترین خرید کتاب برای طراحی </h5>
+							<p class="mb-1">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+							<small class = "text-muted">نظر داده شده توسط محمد</small>
+						</div>
+						<div class="list-group-item py-3 text-end">
+							<div class="pb-2">
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+							</div>
+							<h5 class="mb-1">کاملا راضی بودم</h5>
+							<p class="mb-1">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+							<small class = "text-muted">نظر داده شده توسط علی</small>
+						</div>
+						<div class="list-group-item py-3 text-end">
+							<div class="pb-2">
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+							</div>
+							<h5 class="mb-1">بهترین تجربه زندگیم بود</h5>
+							<p class="mb-1">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+							<small class = "text-muted">نظر داده شده توسط سارا</small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="contact">
+		<div class="container-lg">
+			<div class="text-center">
+				<h2>در تماس باشید</h2>
+				<p class="lead">سوالی برای پرسش دارید؟ فرم را پر کنید</p>
+			</div>
+			<div class = "row justify-content-center my-5">
+				<div class="col-lg-6">
+					<form class = "text-end">
+						<label for="email" class="form-label">:ایمیل</label>
+						<input type="email" class = "form-control" id = "email" placeholder="book@example.com">
+						<label for="name" class="form-label">:اسم</label>
+						<input type="text" class = "form-control" id = "name" placeholder="محمد">
+						<label for="subject" class = "form-label">سوال شما در چه مورد است؟</label>
+						<select class="form-select" id="subject">
+							<option value="pricing" selected>درخواست قیمت</option>
+							<option value="content">درخواست محتوا</option>
+							<option value="other">سوالات دیگر</option>
+					  	</select>
+						<label for="query" class = "form-label">نظرات شما</label>
+						<textarea id="query" class = "form-control" style = "height: 150px;"></textarea>
+						<div class="my-4 text-center">
+							<button type = "submit" class = "btn btn-secondary">ارسال</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="bg-light">
+		<div class="container">
+			<div class="text-center">
+				<h2>در جریان باشید</h2>
+				<p class="lead">دریافت آخرین بروزرسانی ها...</p>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-8 text-center">
+					<p class="text-muted my-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+					<button class="btn btn-primary" data-bs-toggle = "modal" data-bs-target = "#reg-modal">درخواست بروزرسانی</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="modal fade" id="reg-modal" tabindex = "-1" aria-labelledby = "modal-title" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="modal-title">دریافت آخری بروز رسانی ها</h5>
+					<button class="btn-close" type = "button" data-bs-dismiss = "modal" aria-label="close"></button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut iste reiciendis neque nobis, repudiandae error dolorum aperiam. Molestias nihil reprehenderit odio deserunt, praesentium neque esse eos recusandae delectus mollitia fugiat provident quisquam. Quasi et fugit, omnis hic iusto quae veniam porro, voluptatum saepe harum, voluptates modi. Similique doloribus quis ea.</p>
+					<label for="modal-email" class = "form-label"> your email address:</label>
+					<input type="email" class = "form-control" id = "modal-email" placeholder="e.g@gmail.com">
+				</div>
+				<div class="modal-footer">
+					<button class =  "btn btn-primary">submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="offcanvas offcanvas-start" tabindex = "-1" id = "sidebar" aria-labelledby="sidebar-label">
+		<div class="offcanvas-header">
+			<h5 class="offcanvas-title" id="sidebar-label">کتابهای دیگر من</h5>
+			<button type = "button" class = "btn-close" data-bs-dismiss = "offcanvas" aria-label = "close"></button>
+		</div>
+		<div class="offcanvas-body">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ullam possimus sit nostrum ipsa cumque sunt, inventore illum, quidem nisi.</p>
+			
+			<div class="dropdown mt-3">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="book-dropdown" data-bs-toggle="dropdown">
+				  یک سر تیتر برای کتاب انتخاب کنید
+				</button>
+				<ul class="dropdown-menu" aria-labelledby="book-dropdown">
+					<li><a href="#" class = "dropdown-item">قدرتمند شدن در ری اکت</a></li>
+					<li><a href="#" class = "dropdown-item">ورود به ویو </a></li>
+					<li><a href="#" class = "dropdown-item">شروع با نکست جاوا اسکریپت</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<script>
+		const tooltips = document.querySelectorAll(".tr");
+		tooltips.forEach(t => {
+			new bootstrap.Tooltip(t);
+		})
+	</script>
+</body>
+</html>
